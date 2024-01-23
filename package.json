@@ -31,6 +31,13 @@
     "linux": {
       "category": "your.app.category.type",
       "target": "AppImage"
-    }
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "BonjourYY",
+        "repo": "electron-updater-example"
+      }
+    ]
   }
 }
